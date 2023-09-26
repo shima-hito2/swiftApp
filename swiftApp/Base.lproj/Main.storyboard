@@ -23,6 +23,7 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
                                 <connections>
                                     <action selector="clickBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xtz-h4-1Zo"/>
+                                    <segue destination="2Wj-8M-BhF" kind="show" id="bmG-57-QUu"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -33,6 +34,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="33" y="-27"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="TyF-iP-swg">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="2Wj-8M-BhF" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="f1N-sf-yjV">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="tNy-np-oNc"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="HxZ-uw-Ut3"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NmV-T9-JNn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="844" y="-27"/>
         </scene>
     </scenes>
     <resources>
